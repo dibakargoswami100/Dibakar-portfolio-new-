@@ -1,0 +1,81 @@
+body {
+	padding: 2rem;
+	font-family: -apple-system, BlinkMacSystemFont, "Arial", sans-serif;
+}
+
+h1 {
+	font-size: 16px;
+	margin-top: 0;
+}
+
+p {
+	color: rgb(107, 114, 128);
+	font-size: 15px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+.card {
+	max-width: 620px;
+	margin: 0 auto;
+	padding: 16px;
+	border: 1px solid lightgray;
+	border-radius: 16px;
+}
+
+.card p:last-child {
+	margin-bottom: 0;
+}
+
+/* Home Section */
+#home h1 {
+    font-size: 2.75rem; /* 44px */
+}
+#home h2 {
+    font-size: 1.5rem; /* 24px */
+}
+#home p {
+    font-size: 1rem; /* 16px */
+}
+
+/* About Section */
+#about h2 {
+    font-size: 2.25rem; /* 36px */
+}
+#about p {
+    font-size: 1.125rem; /* 18px */
+    line-height: 1.75rem;
+}
+
+/* Experience Section */
+#experience h3 {
+    font-size: 1.375rem; /* 22px */
+}
+#experience p, #experience li {
+    font-size: 1rem; /* 16px */
+    line-height: 1.625rem;
+}
+
+/* Skills Section */
+#skills h3 {
+    font-size: 1.25rem; /* 20px */
+}
+#skills span {
+    font-size: 0.95rem; /* 15.2px */
+}
+
+/* Projects Section */
+#projects h3 {
+    font-size: 1.25rem;
+}
+#projects p {
+    font-size: 0.95rem;
+}
+
+/* Contact Section */
+#contact h3 {
+    font-size: 1.5rem;
+}
+#contact p, #contact span, #contact label {
+    font-size: 1rem;
+}
